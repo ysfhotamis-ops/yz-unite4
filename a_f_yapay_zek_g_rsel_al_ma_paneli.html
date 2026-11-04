@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AÖF Yapay Zekâ Ünite 2 - Görsel Ders Özeti</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://cdn.jsdelivr.net/npm/lucide@latest/dist/umd/lucide.js"></script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap');
+    body { font-family: 'Inter', sans-serif; }
+    .timeline-line::before {
+      content: '';
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+      top: 0;
+      bottom: 0;
+      width: 4px;
+      background: #cbd5e1;
+    }
+    @media (max-width: 768px) {
+      .timeline-line::before {
+        left: 28px;
+      }
+    }
+  </style>
+</head>
+<body class="bg-slate-50 text-slate-800 antialiased min-h-screen">
+
+  <!-- Header -->
+  <header class="bg-gradient-to-r from-indigo-900 via-blue-800 to-indigo-950 text-white py-8 px-4 shadow-lg border-b border-indigo-700">
+    <div class="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between gap-4">
+      <div>
+        <div class="flex items-center gap-2 mb-2">
+          <span class="px-2.5 py-1 bg-amber-400 text-slate-900 font-bold text-xs uppercase tracking-wider rounded-md">AÖF Sınav Rehberi</span>
+          <span class="text-xs text-indigo-200 font-medium">Bölüm 2 / YZE101U</span>
+        </div>
+        <h1 class="text-2xl md:text-3xl font-extrabold tracking-tight">Tarihsel Gelişim ve Felsefi Temeller</h1>
+        <p class="text-indigo-200 text-sm mt-1">Önemli konferanslar, yabancı & yerli bilim insanları, kışlar ve sınav noktaları</p>
+      </div>
+      <div class="flex flex-wrap gap-2 text-xs">
+        <a href="#zaman-cizelgesi" class="px-3 py-2 bg-indigo-700/60 hover:bg-indigo-600 rounded-lg transition font-medium flex items-center gap-1.5 border border-indigo-500/40">
+          <i data-lucide="clock" class="w-4 h-4"></i> Zaman Akışı
+        </a>
+        <a href="#kisiler" class="px-3 py-2 bg-indigo-700/60 hover:bg-indigo-600 rounded-lg transition font-medium flex items-center gap-1.5 border border-indigo-500/40">
+          <i data-lucide="users" class="w-4 h-4"></i> Önemli İsimler
+        </a>
+        <a href="#kislar" class="px-3 py-2 bg-indigo-700/60 hover:bg-indigo-600 rounded-lg transition font-medium flex items-center gap-1.5 border border-indigo-500/40">
+          <i data-lucide="snowflake" class="w-4 h-4"></i> YZ Kışları
+        </a>
+        <a href="#felsefe" class="px-3 py-2 bg-indigo-700/60 hover:bg-indigo-600 rounded-lg transition font-medium flex items-center gap-1.5 border border-indigo-500/40">
+          <i data-lucide="brain" class="w-4 h-4"></i> Zihin Felsefesi
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main class="max-w-6xl mx-auto px-4 py-8 space-y-12">
+
+    <!-- 1. BÖLÜM: TARİHSEL ZAMAN ÇİZELGESİ (GRAFİKSEL) -->
+    <section id="zaman-cizelgesi" class="bg-white p-6 md:p-8 rounded-2xl shadow-sm border border-slate-200">
+      <div class="flex items-center gap-3 mb-6 pb-4 border-b border-slate-100">
+        <div class="p-2.5 bg-blue-100 text-blue-700 rounded-xl">
+          <i data-lucide="git-branch" class="w-6 h-6"></i>
+        </div>
+        <div>
+          <h2 class="text-xl font-bold text-slate-800">1. Tarihsel Yol Haritası ve Kırılma Noktaları</h2>
+          <p class="text-xs text-slate-500">Antik köklerden günümüz büyük dil modellerine basamaklı akış</p>
+        </div>
+      </div>
+
+      <div class="relative timeline-line space-y-8 my-4">
+
+        <!-- 1: İslam Medeniyeti -->
+        <div class="relative flex flex-col md:flex-row items-start md:items-center group">
+          <div class="flex-1 md:text-right pr-0 md:pr-8 pl-14 md:pl-0">
+            <span class="inline-block px-2.5 py-0.5 text-xs font-semibold bg-emerald-100 text-emerald-800 rounded-full mb-1">9. - 13. Yüzyıl</span>
+            <h3 class="font-bold text-slate-900 text-base">Otomata ve Algoritma Kökeni</h3>
+            <p class="text-xs text-slate-600 mt-1">
+              <strong>El-Hârizmî:</strong> Cebirin kurucusu, <em>Algoritmi</em> &rarr; <strong>Algoritma</strong> kavramı.<br>
+              <strong>El-Cezerî:</strong> 1206 tarihli eseri, fil saati ve müzik çalan otomatlar ile <strong>programlanabilirlik</strong> ve <strong>geri beslemeli kontrol</strong> öncüsü.
+            </p>
+          </div>
+          <div class="absolute left-3.5 md:left-1/2 -translate-x-1/2 w-8 h-8 rounded-full bg-emerald-500 text-white flex items-center justify-center font-bold text-xs ring-4 ring-white shadow">
+            1
+          </div>
+          <div class="flex-1 pl-14 md:pl-8 mt-2 md:mt-0">
+            <div class="p-3 bg-emerald-50 border border-emerald-200 rounded-xl text-xs text-emerald-900 font-medium">
+              💡 <strong>Sınav Notu:</strong> El-Cezerî'nin müzik figürlerinde kullandığı pim mekanizması, "girdi değiştikçe çıktının değişmesi" mantığının ilk örneğidir.
+            </div>
+          </div>
+        </div>
+
+        <!-- 2: 17. - 19. Yüzyıl -->
+        <div class="relative flex flex-col md:flex-row-reverse items-start md:items-center group">
+          <div class="flex-1 md:text-left pl-14 md:pl-8">
+            <span class="inline-block px-2.5 py-0.5 text-xs font-semibold bg-sky-100 text-sky-800 rounded-full mb-1">17. - 19. Yüzyıl</span>
+            <h3 class="font-bold text-slate-900 text-base">Mekanik Hesaplama & Mantık</h3>
+            <p class="text-xs text-slate-600 mt-1">
+              <strong>Pascal & Schickard:</strong> Pascaline mekanik hesap makinesi.<br>
+              <strong>Charles Babbage:</strong> Analitik Makine (Modern bilgisayarın işlemci/bellek tasarımı).<br>
+              <strong>Ada Lovelace:</strong> İlk programcı; "evrensel sembol işleme" sezgisi.<br>
+              <strong>George Boole (1854):</strong> Boole Cebiri (Mantıksal akıl yürütmeyi sembolize etme).
+            </p>
+          </div>
+          <div class="absolute left-3.5 md:left-1/2 -translate-x-1/2 w-8 h-8 rounded-full bg-sky-500 text-white flex items-center justify-center font-bold text-xs ring-4 ring-white shadow">
+            2
+          </div>
+          <div class="flex-1 pr-0 md:pr-8 pl-14 md:pl-0 mt-2 md:mt-0 text-left md:text-right">
+            <div class="p-3 bg-sky-50 border border-sky-200 rounded-xl text-xs text-sky-900 font-medium">
+              💡 <strong>Sınav Notu:</strong> Boole Cebiri, hem ikili (binary) bilgisayar mimarisinin hem de Sembolik Yapay Zekânın matematiksel omurgasıdır.
+            </div>
+          </div>
+        </div>
+
+        <!-- 3: 1950 & Turing Testi -->
+        <div class="relative flex flex-col md:flex-row items-start md:items-center group">
+          <div class="flex-1 md:text-right pr-0 md:pr-8 pl-14 md:pl-0">
+            <span class="inline-block px-2.5 py-0.5 text-xs font-semibold bg-indigo-100 text-indigo-800 rounded-full mb-1">1936 - 1950</span>
+            <h3 class="font-bold text-slate-900 text-base">Alan Turing ve "Makineler Düşünebilir mi?"</h3>
+            <p class="text-xs text-slate-600 mt-1">
+              1936'da <strong>Turing Makinesi</strong> (soyut hesaplama modeli). 1950'de yayımlanan <em>Computing Machinery and Intelligence</em> makalesi ile <strong>Turing Testi</strong> (Taklit Oyunu).
+            </p>
+          </div>
+          <div class="absolute left-3.5 md:left-1/2 -translate-x-1/2 w-8 h-8 rounded-full bg-indigo-600 text-white flex items-center justify-center font-bold text-xs ring-4 ring-white shadow">
+            3
+          </div>
+          <div class="flex-1 pl-14 md:pl-8 mt-2 md:mt-0">
+            <div class="p-3 bg-indigo-50 border border-indigo-200 rounded-xl text-xs text-indigo-900 font-medium">
+              💡 <strong>Sınav Notu:</strong> Turing, felsefi tanımdan ziyade <em>davranışsal/işlevselci</em> bir ölçüt sunmuştur: Değerlendirici insan, makineyi insandan ayıramıyorsa makine zekidir.
+            </div>
+          </div>
+        </div>
+
+        <!-- 4: 1956 Dartmouth Konferansı -->
+        <div class="relative flex flex-col md:flex-row-reverse items-start md:items-center group">
+          <div class="flex-1 md:text-left pl-14 md:pl-8">
+            <span class="inline-block px-2.5 py-0.5 text-xs font-semibold bg-amber-100 text-amber-900 rounded-full mb-1">1956 (Dönüm Noktası)</span>
+            <h3 class="font-bold text-amber-950 text-base flex items-center gap-1.5">
+              <i data-lucide="award" class="w-4 h-4 text-amber-600"></i> Dartmouth Konferansı
+            </h3>
+            <p class="text-xs text-slate-600 mt-1">
+              <strong>John McCarthy, Marvin Minsky, Claude Shannon, Nathaniel Rochester</strong> tarafından düzenlendi. Yapay zekâ bağımsız bir disiplin olarak tescillendi.
+            </p>
+          </div>
+          <div class="absolute left-3.5 md:left-1/2 -translate-x-1/2 w-8 h-8 rounded-full bg-amber-500 text-white flex items-center justify-center font-bold text-xs ring-4 ring-white shadow">
+            4
+          </div>
+          <div class="flex-1 pr-0 md:pr-8 pl-14 md:pl-0 mt-2 md:mt-0 text-left md:text-right">
+            <div class="p-3 bg-amber-50 border border-amber-300 rounded-xl text-xs text-amber-950 font-bold">
+              ★ EN ÇOK ÇIKAN SORU: "Artificial Intelligence" (Yapay Zekâ) terimini resmî olarak öneren kişi: John McCarthy (1956).
+            </div>
+          </div>
+        </div>
+
+        <!-- 5: Erken Dönem & Cahit Arf -->
+        <div class="relative flex flex-col md:flex-row items-start md:items-center group">
+          <div class="flex-1 md:text-right pr-0 md:pr-8 pl-14 md:pl-0">
+            <span class="inline-block px-2.5 py-0.5 text-xs font-semibold bg-rose-100 text-rose-800 rounded-full mb-1">1958 - 1966</span>
+            <h3 class="font-bold text-slate-900 text-base">İlk Programlar & Cahit Arf</h3>
+            <p class="text-xs text-slate-600 mt-1">
+              <strong>Cahit Arf (1958):</strong> Erzurum Atatürk Üniv. <em>"Makine Düşünebilir mi ve Nasıl Düşünebilir?"</em> konferansı.<br>
+              <strong>Logic Theorist (1956):</strong> İlk yapay zekâ programı kabul edilir (Newell & Simon).<br>
+              <strong>ELIZA (1966):</strong> İlk kural tabanlı sohbet botu (Weizenbaum).
+            </p>
+          </div>
+          <div class="absolute left-3.5 md:left-1/2 -translate-x-1/2 w-8 h-8 rounded-full bg-rose-500 text-white flex items-center justify-center font-bold text-xs ring-4 ring-white shadow">
+            5
+          </div>
+          <div class="flex-1 pl-14 md:pl-8 mt-2 md:mt-0">
+            <div class="p-3 bg-rose-50 border border-rose-200 rounded-xl text-xs text-rose-900 font-medium">
+              💡 <strong>Sınav Notu:</strong> Cahit Arf, Türkiye'de bu konuyu bilimsel düzeyde ele alan ilk kişidir ve Turing ile çağdaş bir vizyona sahiptir.
+            </div>
+          </div>
+        </div>
+
+        <!-- 6: 1980'ler Uzman Sistemler ve Kışlar -->
+        <div class="relative flex flex-col md:flex-row-reverse items-start md:items-center group">
+          <div class="flex-1 md:text-left pl-14 md:pl-8">
+            <span class="inline-block px-2.5 py-0.5 text-xs font-semibold bg-teal-100 text-teal-800 rounded-full mb-1">1980'ler</span>
+            <h3 class="font-bold text-slate-900 text-base">Uzman Sistemler Çağı</h3>
+            <p class="text-xs text-slate-600 mt-1">
+              <strong>MYCIN:</strong> Tıbbi teşhis/tedavi uzman sistemi.<br>
+              <strong>XCON (R1):</strong> DEC firmasının bilgisayar yapılandırma kural motoru.<br>
+              Bilgi, "EĞER-İSE" (If-Then) kural tabanı ile manuel modellenmiştir.
+            </p>
+          </div>
+          <div class="absolute left-3.5 md:left-1/2 -translate-x-1/2 w-8 h-8 rounded-full bg-teal-600 text-white flex items-center justify-center font-bold text-xs ring-4 ring-white shadow">
+            6
+          </div>
+          <div class="flex-1 pr-0 md:pr-8 pl-14 md:pl-0 mt-2 md:mt-0 text-left md:text-right">
+            <div class="p-3 bg-teal-50 border border-teal-200 rounded-xl text-xs text-teal-900 font-medium">
+              💡 <strong>Sınav Notu:</strong> Uzman sistemler başarılı oldu ancak <em>öğrenme yetisi olmaması</em> ve kuralları elle girmenin zorluğu (bilgi darboğazı) nedeniyle 2. Kış'a girildi.
+            </div>
+          </div>
+        </div>
+
+        <!-- 7: 2012'den Günümüze -->
+        <div class="relative flex flex-col md:flex-row items-start md:items-center group">
+          <div class="flex-1 md:text-right pr-0 md:pr-8 pl-14 md:pl-0">
+            <span class="inline-block px-2.5 py-0.5 text-xs font-semibold bg-purple-100 text-purple-800 rounded-full mb-1">2012 - Günümüz</span>
+            <h3 class="font-bold text-slate-900 text-base">Derin Öğrenme & Büyük Dil Modelleri</h3>
+            <p class="text-xs text-slate-600 mt-1">
+              <strong>AlexNet (2012):</strong> ImageNet yarışmasında GPU destekli derin sinir ağlarının zaferi.<br>
+              <strong>Transformer (2017):</strong> Vaswani vd. LLM mimarisinin kuruluşu.<br>
+              <strong>Büyük Dil Modelleri:</strong> GPT, Claude, Gemini, vb.
+            </p>
+          </div>
+          <div class="absolute left-3.5 md:left-1/2 -translate-x-1/2 w-8 h-8 rounded-full bg-purple-600 text-white flex items-center justify-center font-bold text-xs ring-4 ring-white shadow">
+            7
+          </div>
+          <div class="flex-1 pl-14 md:pl-8 mt-2 md:mt-0">
+            <div class="p-3 bg-purple-50 border border-purple-200 rounded-xl text-xs text-purple-900 font-medium">
+              💡 <strong>Sınav Notu:</strong> 2012 kırılmasının anahtarı: <strong>Büyük Veri + GPU (Grafik İşlemci) Paralel Hesaplama Gücü</strong>.
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- 2. BÖLÜM: YAPAY ZEKA KIŞLARI GRAFİĞİ VE KARŞILAŞTIRMASI -->
+    <section id="kislar" class="bg-white p-6 md:p-8 rounded-2xl shadow-sm border border-slate-200">
+      <div class="flex items-center gap-3 mb-6 pb-4 border-b border-slate-100">
+        <div class="p-2.5 bg-cyan-100 text-cyan-800 rounded-xl">
+          <i data-lucide="snowflake" class="w-6 h-6"></i>
+        </div>
+        <div>
+          <h2 class="text-xl font-bold text-slate-800">2. Yapay Zekâ Kışları ve Paradigma Değişimleri</h2>
+          <p class="text-xs text-slate-500">Aşırı beklentiler, hayal kırıklıkları ve fon kesintilerinin anatomisi</p>
+        </div>
+      </div>
+
+      <!-- Dalga Döngüsü Görsel Kartı -->
+      <div class="p-5 bg-gradient-to-r from-slate-900 to-indigo-950 text-white rounded-xl mb-6">
+        <div class="text-xs text-indigo-300 font-bold uppercase tracking-wider mb-2">Döngüsel Seyir Grafiği</div>
+        <div class="flex flex-col md:flex-row items-center justify-between text-center gap-3 py-2 text-xs">
+          <div class="bg-slate-800/80 px-3 py-2 rounded-lg border border-slate-700 w-full md:w-auto">
+            <div class="text-amber-400 font-bold">1956</div>
+            <div>Dartmouth (Doğuş)</div>
+          </div>
+          <span class="text-rose-400 font-bold">&darr; 1974-1980</span>
+          <div class="bg-rose-950/80 px-3 py-2 rounded-lg border border-rose-800 w-full md:w-auto">
+            <div class="text-rose-300 font-bold">1. KIŞ</div>
+            <div class="text-[11px] text-slate-300">ALPAC & Lighthill Raporu</div>
+          </div>
+          <span class="text-emerald-400 font-bold">&uarr; 1980'ler</span>
+          <div class="bg-slate-800/80 px-3 py-2 rounded-lg border border-slate-700 w-full md:w-auto">
+            <div class="text-emerald-300 font-bold">Uzman Sistemler</div>
+            <div class="text-[11px] text-slate-300">MYCIN & XCON</div>
+          </div>
+          <span class="text-rose-400 font-bold">&darr; 1987-1993</span>
+          <div class="bg-rose-950/80 px-3 py-2 rounded-lg border border-rose-800 w-full md:w-auto">
+            <div class="text-rose-300 font-bold">2. KIŞ</div>
+            <div class="text-[11px] text-slate-300">LISP pazarının çöküşü</div>
+          </div>
+          <span class="text-blue-400 font-bold">&uarr; 2012+</span>
+          <div class="bg-indigo-800/80 px-3 py-2 rounded-lg border border-indigo-500 w-full md:w-auto">
+            <div class="text-cyan-300 font-bold">Derin Öğrenme</div>
+            <div class="text-[11px] text-slate-200">AlexNet & LLM Devri</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Kıyaslama Tablosu -->
+      <div class="overflow-x-auto">
+        <table class="w-full text-left text-xs border border-slate-200 rounded-xl overflow-hidden">
+          <thead class="bg-slate-100 text-slate-700 uppercase font-bold border-b border-slate-200">
+            <tr>
+              <th class="p-3">Kriter</th>
+              <th class="p-3 bg-blue-50/70 text-blue-900 border-x border-slate-200">1. Yapay Zekâ Kışı (1970'ler)</th>
+              <th class="p-3 bg-indigo-50/70 text-indigo-900">2. Yapay Zekâ Kışı (1980 sonu-1990)</th>
+            </tr>
+          </thead>
+          <tbody class="divide-y divide-slate-200 text-slate-700">
+            <tr>
+              <td class="p-3 font-semibold bg-slate-50">Egemen Yaklaşım</td>
+              <td class="p-3 border-x border-slate-200">Sembolik YZ, Doğal Dil Çevirisi, Teorem İspatlama</td>
+              <td class="p-3">Uzman Sistemler, "Eğer-İse" Kural Tabanları</td>
+            </tr>
+            <tr>
+              <td class="p-3 font-semibold bg-slate-50">Tetikleyici Belge/Olay</td>
+              <td class="p-3 border-x border-slate-200 font-medium text-rose-700">
+                • <strong>ALPAC Raporu (1966 - ABD):</strong> Makine çevirisinin imkansızlığı.<br>
+                • <strong>Lighthill Raporu (1973 - İngiltere):</strong> Fon kesintisi tavsiyesi.
+              </td>
+              <td class="p-3 font-medium text-rose-700">
+                • Özel yapay zekâ donanımlarının (LISP Machines) çöküşü.<br>
+                • Şirketlerin uzman sistem bakım maliyetlerini karşılayamaması.
+              </td>
+            </tr>
+            <tr>
+              <td class="p-3 font-semibold bg-slate-50">Temel Teknik Darboğaz</td>
+              <td class="p-3 border-x border-slate-200">Yetersiz işlem gücü, bellek kıtlığı, dilin bağlamsal karmaşıklığı.</td>
+              <td class="p-3">Öğrenme yeteneğinin olmaması, bilginin uzmanlardan elle girilme zorluğu (Bilgi Edinim Darboğazı).</td>
+            </tr>
+            <tr>
+              <td class="p-3 font-semibold bg-slate-50">Ortak Sebep</td>
+              <td colspan="2" class="p-3 text-center bg-amber-50/60 font-semibold text-amber-900">
+                "Aşırı İyimser Vaatler &rarr; Beklentilerin Karşılanamaması &rarr; Finansman/Destek Kesintisi &rarr; Hayal Kırıklığı"
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- 3. BÖLÜM: KİŞİLER & YAPAY ZEKAYA ETKİLERİ KARTLARI -->
+    <section id="kisiler" class="bg-white p-6 md:p-8 rounded-2xl shadow-sm border border-slate-200">
+      <div class="flex items-center gap-3 mb-6 pb-4 border-b border-slate-100">
+        <div class="p-2.5 bg-emerald-100 text-emerald-800 rounded-xl">
+          <i data-lucide="graduation-cap" class="w-6 h-6"></i>
+        </div>
+        <div>
+          <h2 class="text-xl font-bold text-slate-800">3. Sınavda Çıkabilecek Kritik İsimler Rehberi</h2>
+          <p class="text-xs text-slate-500">Kitaptaki yerli ve yabancı öncülerin kilit kavramlarla eşleşmesi</p>
+        </div>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+
+        <!-- El-Cezeri -->
+        <div class="p-4 rounded-xl border border-emerald-200 bg-emerald-50/30 hover:shadow-md transition">
+          <div class="flex items-center justify-between mb-2">
+            <span class="font-bold text-slate-900 text-sm">El-Cezerî (13. yy)</span>
+            <span class="px-2 py-0.5 bg-emerald-200 text-emerald-800 rounded text-[10px] font-bold">Otomata</span>
+          </div>
+          <p class="text-xs text-slate-600">
+            <strong>Eser:</strong> <em>Kitâbü'l-Hiyel</em> (1206).<br>
+            <strong>Katkı:</strong> Müzik çalan otomatlar, fil saati, şamandıralı su seviye kontrolü.<br>
+            <strong>Kilit Sözcük:</strong> Programlanabilir davranış ve geri beslemeli mekanik sistem.
+          </p>
+        </div>
+
+        <!-- El-Harizmi -->
+        <div class="p-4 rounded-xl border border-slate-200 bg-slate-50/50 hover:shadow-md transition">
+          <div class="flex items-center justify-between mb-2">
+            <span class="font-bold text-slate-900 text-sm">El-Hârizmî (9. yy)</span>
+            <span class="px-2 py-0.5 bg-slate-200 text-slate-800 rounded text-[10px] font-bold">Algoritma</span>
+          </div>
+          <p class="text-xs text-slate-600">
+            <strong>Eser:</strong> <em>Hisâbü'l-Cebr ve'l-Mukâbele</em>.<br>
+            <strong>Katkı:</strong> Cebir disiplini. İsmi Latinceye <em>Algoritmi</em> olarak geçerek modern "Algoritma" kavramını oluşturdu.
+          </p>
+        </div>
+
+        <!-- Ada Lovelace -->
+        <div class="p-4 rounded-xl border border-sky-200 bg-sky-50/40 hover:shadow-md transition">
+          <div class="flex items-center justify-between mb-2">
+            <span class="font-bold text-slate-900 text-sm">Ada Lovelace (1843)</span>
+            <span class="px-2 py-0.5 bg-sky-200 text-sky-800 rounded text-[10px] font-bold">İlk Programcı</span>
+          </div>
+          <p class="text-xs text-slate-600">
+            <strong>Katkı:</strong> Babbage'ın Analitik Makinesi üzerine notlar yazdı. Makinenin yalnızca sayı değil, <strong>müzik ve evrensel sembolleri</strong> de işleyebileceğini ilk öngören kişi.
+          </p>
+        </div>
+
+        <!-- George Boole -->
+        <div class="p-4 rounded-xl border border-slate-200 bg-slate-50/50 hover:shadow-md transition">
+          <div class="flex items-center justify-between mb-2">
+            <span class="font-bold text-slate-900 text-sm">George Boole (1854)</span>
+            <span class="px-2 py-0.5 bg-slate-200 text-slate-800 rounded text-[10px] font-bold">Boole Cebiri</span>
+          </div>
+          <p class="text-xs text-slate-600">
+            <strong>Eser:</strong> <em>An Investigation of the Laws of Thought</em>.<br>
+            <strong>Katkı:</strong> Mantığı 1 ve 0 cebirine dönüştürdü. Sembolik yapay zekânın matematik altyapısını kurdu.
+          </p>
+        </div>
+
+        <!-- Alan Turing -->
+        <div class="p-4 rounded-xl border border-indigo-200 bg-indigo-50/40 hover:shadow-md transition">
+          <div class="flex items-center justify-between mb-2">
+            <span class="font-bold text-slate-900 text-sm">Alan Turing (1936-1950)</span>
+            <span class="px-2 py-0.5 bg-indigo-200 text-indigo-800 rounded text-[10px] font-bold">Turing Testi</span>
+          </div>
+          <p class="text-xs text-slate-600">
+            <strong>Eser:</strong> <em>Computing Machinery and Intelligence</em>.<br>
+            <strong>Katkı:</strong> "Makineler düşünebilir mi?" & Taklit Oyunu. Davranışsal zekâ değerlendirme kriteri.
+          </p>
+        </div>
+
+        <!-- John McCarthy -->
+        <div class="p-4 rounded-xl border border-amber-300 bg-amber-50/50 hover:shadow-md transition">
+          <div class="flex items-center justify-between mb-2">
+            <span class="font-bold text-slate-900 text-sm">John McCarthy (1956)</span>
+            <span class="px-2 py-0.5 bg-amber-200 text-amber-900 rounded text-[10px] font-bold">Terimin İsim Babası</span>
+          </div>
+          <p class="text-xs text-slate-600">
+            <strong>Katkı:</strong> Dartmouth Konferansı'nı düzenledi. <strong>"Artificial Intelligence"</strong> terimini resmî olarak teklif etti. LISP dilini tasarladı.
+          </p>
+        </div>
+
+        <!-- Cahit Arf -->
+        <div class="p-4 rounded-xl border border-rose-300 bg-rose-50/50 hover:shadow-md transition">
+          <div class="flex items-center justify-between mb-2">
+            <span class="font-bold text-slate-900 text-sm">Ord. Prof. Dr. Cahit Arf</span>
+            <span class="px-2 py-0.5 bg-rose-200 text-rose-900 rounded text-[10px] font-bold">Türkiye Öncüsü</span>
+          </div>
+          <p class="text-xs text-slate-600">
+            <strong>Tarih:</strong> 1958-1959, Erzurum Atatürk Üniv.<br>
+            <strong>Konferans:</strong> <em>"Makine Düşünebilir mi ve Nasıl Düşünebilir?"</em><br>
+            Turing ile çağdaş bir vizyonla makine zekâsını Türkiye'de ele alan ilk bilim insanı.
+          </p>
+        </div>
+
+        <!-- John Searle -->
+        <div class="p-4 rounded-xl border border-purple-200 bg-purple-50/40 hover:shadow-md transition">
+          <div class="flex items-center justify-between mb-2">
+            <span class="font-bold text-slate-900 text-sm">John Searle (1980)</span>
+            <span class="px-2 py-0.5 bg-purple-200 text-purple-800 rounded text-[10px] font-bold">Çin Odası</span>
+          </div>
+          <p class="text-xs text-slate-600">
+            <strong>Makale:</strong> <em>Minds, Brains, and Programs</em>.<br>
+            <strong>Katkı:</strong> Sentaks (söz dizimi) &ne; Semantik (anlam). Bilgisayar kuralları işletir ama anlamaz diyerek Güçlü YZ'ye karşı çıktı.
+          </p>
+        </div>
+
+        <!-- Wiener / McCulloch / Pitts -->
+        <div class="p-4 rounded-xl border border-slate-200 bg-slate-50/50 hover:shadow-md transition">
+          <div class="flex items-center justify-between mb-2">
+            <span class="font-bold text-slate-900 text-sm">Wiener & McCulloch & Pitts</span>
+            <span class="px-2 py-0.5 bg-slate-200 text-slate-800 rounded text-[10px] font-bold">Sibernetik & Nöron</span>
+          </div>
+          <p class="text-xs text-slate-600">
+            <strong>1943:</strong> McCulloch-Pitts ilk yapay nöron modeli.<br>
+            <strong>1948:</strong> Norbert Wiener <em>Cybernetics</em> kitabı (biyolojik ve mekanik sistemlerde geri besleme).
+          </p>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- 4. BÖLÜM: ZİHİN FELSEFESİ KARŞILAŞTIRMASI -->
+    <section id="felsefe" class="bg-white p-6 md:p-8 rounded-2xl shadow-sm border border-slate-200">
+      <div class="flex items-center gap-3 mb-6 pb-4 border-b border-slate-100">
+        <div class="p-2.5 bg-purple-100 text-purple-800 rounded-xl">
+          <i data-lucide="brain-circuit" class="w-6 h-6"></i>
+        </div>
+        <div>
+          <h2 class="text-xl font-bold text-slate-800">4. Zihin Felsefesi: Davranış vs. Anlama</h2>
+          <p class="text-xs text-slate-500">Turing Testi ile John Searle'ün Çin Odası Deneyinin karşılaştırılması</p>
+        </div>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+
+        <!-- Sol Kutu: Turing Testi -->
+        <div class="border-2 border-indigo-200 bg-indigo-50/30 p-5 rounded-2xl relative">
+          <div class="flex items-center gap-2 mb-3 text-indigo-900 font-bold">
+            <i data-lucide="message-square" class="w-5 h-5 text-indigo-600"></i>
+            <h3>Turing Testi (Taklit Oyunu - 1950)</h3>
+          </div>
+          <p class="text-xs text-slate-600 mb-3 leading-relaxed">
+            İnsan hakem, kör bir odada yazılı olarak biri insan diğeri bilgisayar olan iki adayla konuşur. Hangisinin makine olduğunu ayırt edemezse makine "zeki" sayılır.
+          </p>
+          <div class="space-y-2 text-xs">
+            <div class="p-2 bg-white rounded-lg border border-indigo-100 font-medium text-indigo-950">
+              📌 <strong>Felsefi Konum:</strong> <em>İşlevselcilik & Davranışçılık</em>
+            </div>
+            <div class="p-2 bg-white rounded-lg border border-indigo-100 font-medium text-slate-700">
+              🎯 <strong>Ölçüt:</strong> Dışarıdan gözlemlenen çıktı insana benziyorsa iç yapının önemi yoktur.
+            </div>
+          </div>
+        </div>
+
+        <!-- Sağ Kutu: Çin Odası Deneyi -->
+        <div class="border-2 border-purple-200 bg-purple-50/30 p-5 rounded-2xl relative">
+          <div class="flex items-center gap-2 mb-3 text-purple-900 font-bold">
+            <i data-lucide="box" class="w-5 h-5 text-purple-600"></i>
+            <h3>Çin Odası Düşünce Deneyi (Searle - 1980)</h3>
+          </div>
+          <p class="text-xs text-slate-600 mb-3 leading-relaxed">
+            Çince bilmeyen bir adam, kapalı bir odada kural kitabına bakarak gelen Çince sembollere uygun karşılıklar verip dışarı yollar. Dışarıdakiler onun Çince bildiğini sanır, fakat o hiçbir şey anlamamaktadır!
+          </p>
+          <div class="space-y-2 text-xs">
+            <div class="p-2 bg-white rounded-lg border border-purple-100 font-medium text-purple-950">
+              📌 <strong>Felsefi Konum:</strong> <em>Anlambilimsel (Semantik) Karşı Çıkış</em>
+            </div>
+            <div class="p-2 bg-white rounded-lg border border-purple-100 font-medium text-slate-700">
+              🎯 <strong>Kritik Ayrım:</strong> <strong>Söz dizimi (Sentaks) &ne; Anlam (Semantik)</strong>. Kuralları uygulamak, bilince sahip olmak değildir.
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Ekstra Felsefi Kuramlar -->
+      <div class="mt-6 p-4 bg-slate-50 border border-slate-200 rounded-xl text-xs space-y-2">
+        <div class="font-bold text-slate-800">Ders Notundaki Diğer Zihin Felsefesi Yaklaşımları:</div>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-3">
+          <div class="bg-white p-3 rounded-lg border border-slate-200">
+            <strong class="text-blue-700">Hesaplamacı Zihin Kuramı</strong><br>
+            <em>Putnam (1967) & Fodor (1975)</em><br>
+            Beyin donanımdır, zihin bu donanım üzerinde çalışan bir yazılımdır.
+          </div>
+          <div class="bg-white p-3 rounded-lg border border-slate-200">
+            <strong class="text-rose-700">Bedenlilik (Embodiment) Eleştirisi</strong><br>
+            <em>Hubert Dreyfus (1972)</em><br>
+            Zihin bedensel deneyim, sezgi ve bağlam olmaksızın sadece kural setiyle taklit edilemez.
+          </div>
+          <div class="bg-white p-3 rounded-lg border border-slate-200">
+            <strong class="text-amber-700">Zor Problem & Bilinç</strong><br>
+            <em>David Chalmers (1995)</em><br>
+            Öznel deneyim (qualia / "yarasa olmak nasıl bir şeydir?") sadece hesaplama ile açıklanamaz.
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. BÖLÜM: AÖF KENDİMİZİ SINAYALIM HIZLI TEST PANELİ -->
+    <section class="bg-gradient-to-br from-slate-900 to-indigo-950 text-white p-6 md:p-8 rounded-2xl shadow-xl">
+      <div class="flex items-center justify-between mb-6 pb-4 border-b border-indigo-800">
+        <div class="flex items-center gap-3">
+          <div class="p-2 bg-amber-400 text-slate-900 rounded-lg">
+            <i data-lucide="check-circle" class="w-5 h-5"></i>
+          </div>
+          <div>
+            <h2 class="text-lg md:text-xl font-bold">Hızlı Sınav Hazırlık Denemesi</h2>
+            <p class="text-xs text-indigo-300">Kitabın sonundaki "Kendimizi Sınayalım" sorularından seçmeler</p>
+          </div>
+        </div>
+        <button id="show-answers-btn" class="px-3 py-1.5 bg-amber-400 hover:bg-amber-300 text-slate-950 text-xs font-bold rounded-lg transition">
+          Cevapları Göster / Gizle
+        </button>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4 text-xs">
+
+        <!-- Soru 1 -->
+        <div class="p-4 bg-slate-800/80 rounded-xl border border-slate-700">
+          <p class="font-semibold text-slate-200 mb-2">1. "Artificial Intelligence" terimini resmî olarak ilk kez öneren bilim insanı kimdir?</p>
+          <div class="text-slate-400 space-y-1">
+            <div>A) Alan Turing</div>
+            <div>B) Marvin Minsky</div>
+            <div class="font-bold text-amber-300">C) John McCarthy</div>
+            <div>D) Claude Shannon</div>
+          </div>
+          <div class="answer-box hidden mt-3 pt-2 border-t border-slate-700 text-emerald-400 font-bold">
+            ✓ Doğru Cevap: C (Dartmouth Konferansı, 1956)
+          </div>
+        </div>
+
+        <!-- Soru 2 -->
+        <div class="p-4 bg-slate-800/80 rounded-xl border border-slate-700">
+          <p class="font-semibold text-slate-200 mb-2">2. Birinci yapay zekâ kışının başlamasında belirleyici rol oynayan iki temel rapor hangisidir?</p>
+          <div class="text-slate-400 space-y-1">
+            <div class="font-bold text-amber-300">A) ALPAC Raporu (1966) ve Lighthill Raporu (1973)</div>
+            <div>B) Dartmouth Öneri Metni ve Cybernetics Raporu</div>
+            <div>C) Turing Raporu ve Minsky Raporu</div>
+            <div>D) AI Act ve GDPR Düzenlemesi</div>
+          </div>
+          <div class="answer-box hidden mt-3 pt-2 border-t border-slate-700 text-emerald-400 font-bold">
+            ✓ Doğru Cevap: A (ALPAC çeviri fiyaskosu, Lighthill fon kesintisi)
+          </div>
+        </div>
+
+        <!-- Soru 3 -->
+        <div class="p-4 bg-slate-800/80 rounded-xl border border-slate-700">
+          <p class="font-semibold text-slate-200 mb-2">3. 1958'de "Makine Düşünebilir mi ve Nasıl Düşünebilir?" konferansıyla konuyu Türkiye'de ilk ele alan Türk bilim insanı kimdir?</p>
+          <div class="text-slate-400 space-y-1">
+            <div>A) Feza Gürsey</div>
+            <div>B) Oktay Sinanoğlu</div>
+            <div class="font-bold text-amber-300">C) Ord. Prof. Dr. Cahit Arf</div>
+            <div>D) Gündüz İkeda</div>
+          </div>
+          <div class="answer-box hidden mt-3 pt-2 border-t border-slate-700 text-emerald-400 font-bold">
+            ✓ Doğru Cevap: C (Erzurum Atatürk Üniversitesi halk konferansı)
+          </div>
+        </div>
+
+        <!-- Soru 4 -->
+        <div class="p-4 bg-slate-800/80 rounded-xl border border-slate-700">
+          <p class="font-semibold text-slate-200 mb-2">4. John Searle'ün Çin Odası deneyi ile vurgulamak istediği temel felsefi ayrım nedir?</p>
+          <div class="text-slate-400 space-y-1">
+            <div>A) Donanım ile yazılım ayrımı</div>
+            <div class="font-bold text-amber-300">B) Söz dizimi (sentaks/sembol işleme) ile anlam (semantik/kavrayış) ayrımı</div>
+            <div>C) Dar yapay zekâ ile genel yapay zekâ ayrımı</div>
+            <div>D) Sayısal veri ile nitel veri ayrımı</div>
+          </div>
+          <div class="answer-box hidden mt-3 pt-2 border-t border-slate-700 text-emerald-400 font-bold">
+            ✓ Doğru Cevap: B (Sembol eşleştirmek anlamak demek değildir)
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="border-t border-slate-200 bg-white py-6 text-center text-xs text-slate-500">
+    <p>Açıköğretim "Yapay Zekâya Giriş" (YZE101U) - 2. Ünite Ders Notları ve Sınav Özeti</p>
+  </footer>
+
+  <script>
+    // Lucide ikonlarını yükle
+    lucide.createIcons();
+
+    // Sınav cevaplarını açıp kapama
+    const btn = document.getElementById('show-answers-btn');
+    const answers = document.querySelectorAll('.answer-box');
+    let visible = false;
+
+    btn.addEventListener('click', () => {
+      visible = !visible;
+      answers.forEach(box => {
+        box.classList.toggle('hidden', !visible);
+      });
+      btn.textContent = visible ? 'Cevapları Gizle' : 'Cevapları Göster / Gizle';
+    });
+  </script>
+</body>
+</html>
